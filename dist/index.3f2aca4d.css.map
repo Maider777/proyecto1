@@ -1,0 +1,1 @@
+{"mappings":"AAAA;EACE;;;AACF;EACE;EACA;EACA","sources":["main.sass"],"sourcesContent":["body\r\n  background-color: yellowgreen\r\nheader\r\n  padding: 1.5rem\r\n  height: 20%\r\n  width: 100%"],"names":[],"version":3,"file":"index.3f2aca4d.css.map","sourceRoot":"/__parcel_source_root/"}
