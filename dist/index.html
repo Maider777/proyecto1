@@ -3,22 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/index.b3afa39f.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css" integrity="sha512-6KY5s6UI5J7SVYuZB4S/CZMyPylqyyNZco376NM2Z8Sb8OxEdp02e1jkKk/wZxIEmjQ6DRCEBhni+gpr9c4tvA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="/form.b3afa39f.css">
+    <script src="/form.4fd38e7a.js"></script>
 </head>
 <body>
-    <header>
 
-    </header>
-    <section>
+<header>
+    <!--
+(c) 2020-2021 Written by Simon Köhler in Panama
+github.com/koehlersimon
+simon-koehler.com
+Last Update: July 30 2021 12:29pm, Panama
+-->
 
-    </section>
-    <aside>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Bootstrap <span class="badge bg-primary">v5.1.1</span></a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+        <div class="hamburger-toggle">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-content">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Multilevel</a>
+            <ul class="dropdown-menu shadow">
+              <li><a class="dropdown-item" href="#">Gallery</a></li>
+              <li><a class="dropdown-item" href="/form.html">Form</a></li>
+              <li class="dropstart">
+                <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Submenu Left</a>
+                <ul class="dropdown-menu shadow">
+                  <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                  <li><a class="dropdown-item" href=""> Third level 2</a></li>
+                  <li><a class="dropdown-item" href=""> Third level 3</a></li>
+                  <li><a class="dropdown-item" href=""> Third level 4</a></li>
+                  <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                </ul>
+              </li>
+              <li class="dropend">
+                <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Submenu Right</a>
+                <ul class="dropdown-menu shadow">
+                  <li><a class="dropdown-item" href=""> Second level 1</a></li>
+                  <li><a class="dropdown-item" href=""> Second level 2</a></li>
+                  <li><a class="dropdown-item" href=""> Second level 3</a></li>
+                  <li class="dropend">
+                    <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Let's go deeper!</a>
+                    <ul class="dropdown-menu dropdown-submenu shadow">
+                      <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                      <li><a class="dropdown-item" href=""> Third level 2</a></li>
+                      <li><a class="dropdown-item" href=""> Third level 3</a></li>
+                      <li><a class="dropdown-item" href=""> Third level 4</a></li>
+                      <li class="dropend">
+                        <a href="#" class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Still don't have enough? Go much deeper!</a>
+                        <ul class="dropdown-menu dropdown-submenu shadow">
+                          <li><a class="dropdown-item" href=""> Third level 1</a></li>
+                          <li><a class="dropdown-item" href=""> Third level 2</a></li>
+                          <li><a class="dropdown-item" href=""> Third level 3</a></li>
+                          <li><a class="dropdown-item" href=""> Third level 4</a></li>
+                          <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href=""> Third level 5</a></li>
+                </ul>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown dropdown-mega position-static">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Megamenu</a>
+            <div class="dropdown-menu shadow">
+              <div class="mega-content px-4">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                      <h5>Pages</h5>
+                      <div class="list-group">
+                        <a class="list-group-item" href="#">Accomodations</a>
+                        <a class="list-group-item" href="#">Terms & Conditions</a>
+                        <a class="list-group-item" href="#">Privacy</a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                      <h5>Card</h5>
+                      <div class="card">
+                  <img src="https://via.placeholder.com/320x180" class="img-fluid" alt="image">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-3 py-4">
+                      <h5>Lot of Pages</h5>
+                      <p>Lorem ipsum dolo sit achmet muhamed borlan de irtka.
+                    </p></div>
+                    <div class="col-12 col-sm-12 col-md-3 py-4">
+                      <h5>Damn, so many</h5>
+                      <div class="list-group">
+                        <a class="list-group-item" href="#">Accomodations</a>
+                        <a class="list-group-item" href="#">Terms & Conditions</a>
+                        <a class="list-group-item" href="#">Privacy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-auto">
+            <div class="input-group">
+                <input class="form-control border-0 mr-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-primary border-0" type="submit">Search</button>
+            </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<main style="display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center">
+    <div class="container">
+    <div class="row pt-5">
+        <div class="col-12">
+            <h3 class="text-uppercase border-bottom mb-4">Equal height Bootstrap 5 cards example</h3>
+        </div>
+    </div>
+    <div class="row">
+        <!--ADD CLASSES HERE d-flex align-items-stretch-->
+        <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+                <img src="/GRIS$.8f487167.gif" class="card-img-top" alt="Card Image">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Flores</h5>
+                    <p class="card-text mb-4">by .Robert. Photography is licensed under CC BY-NC-ND 2.0</p>
+                    <a href="https://search.creativecommons.org/photos/c99c7899-ef24-4bed-af69-8577a8924aad" class="btn btn-primary mt-auto align-self-center">Book now</a>
+                </div>
+            </div>
+        </div>
+        <!--ADD CLASSES HERE d-flex align-items-stretch-->
+        <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+                <img src="/GRIS2$.b3a7d095.gif" class="card-img-top" alt="Card Image">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Angelica Flores y Fatima Huerta</h5>
+                    <p class="card-text mb-4">This image was marked with a CC BY-NC-ND 2.0 license.</p>
+                    <a href="https://search.creativecommons.org/photos/ecb50f89-289d-42ce-9aca-58faccff5cd8" class="btn btn-primary mt-auto align-self-center">Book now</a>
+                </div>
+            </div>
+        </div>
+        <!--ADD CLASSES HERE d-flex align-items-stretch-->
+        <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+                <img src="/GRIS3$.eec7f226.gif" class="card-img-top" alt="Card Image">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">German shepherd PERLA- Pastor alemán entre flores</h5>
+                    <p class="card-text mb-4">This image was marked with a CC BY-NC-ND 2.0 license.</p>
+                    <a href="https://search.creativecommons.org/photos/3b233f78-3b45-4e2f-8471-3671256692b8" class="btn btn-primary mt-auto align-self-center">Book now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<aside style="display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center">
+    SIDEBAR
+</aside>
+<footer style="display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center">
+    <div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <a href="">Link</a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="">Link</a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="">Link</a>
+        </div>
+    </div>
+</div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js" integrity="sha512-trzlduO3EdG7Q0xK4+A+rPbcolVt37ftugUSOvrHhLR5Yw5rsfWXcpB3CPuEBcRBCHpc+j18xtQ6YrtVPKCdsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    </aside>
-    <footer>
-
-    </footer>
 </body>
-</html><script src="/uno.4139e2a3.js"></script>
+</html>
