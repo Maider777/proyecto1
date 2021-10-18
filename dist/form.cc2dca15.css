@@ -1,0 +1,228 @@
+@import "https://rsms.me/inter/inter-ui.css";
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+/* uncss:ignore start */
+body {
+  background-size: cover;
+  font-family: "Inter UI", sans-serif;
+  font-style: normal;
+  font-size: medium;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100vh;
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  overflow-y: hidden;
+  padding: 0;
+  width: 100vw;
+}
+body.bg-dark {
+  background-image: url("desert-dark.ec479b8a.svg");
+}
+body.bg-light {
+  background-image: url("desert-light.9c4994c9.svg");
+}
+body a {
+  color: inherit;
+  text-decoration: none;
+}
+body button.btn-primary,
+body h1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body button.btn-primary::before,
+body h1::before {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+body button.btn-primary:hover::before,
+body h1:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+body button.btn-primary::before,
+body h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #99ddff;
+  z-index: -1;
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+body header, body header .navbar, body header .navbar .container-fluid, body main, body aside, body footer {
+  border-radius: 0.5rem;
+}
+body header {
+  height: calc(7.75% - 1rem);
+  margin: 0.5rem;
+  width: calc(100% - 1rem);
+  z-index: 1;
+}
+body header .logo {
+  font-size: 3rem;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+body header:hover .logo {
+  -webkit-transform: rotate(1080deg);
+          transform: rotate(1080deg);
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body header .dropdown-menu.show {
+  -webkit-animation: fadeIn 0.3s alternate;
+          animation: fadeIn 0.3s alternate;
+}
+body header .nav-item.dropdown.dropdown-mega {
+  position: static;
+}
+body header .nav-item.dropdown.dropdown-mega .dropdown-menu {
+  width: 90%;
+  top: auto;
+  left: 5%;
+}
+body header .navbar .container-fluid {
+  background: inherit;
+}
+@media (max-width: 991px) {
+  body header .navbar .container-fluid .navbar-collapse {
+    margin-bottom: 0.75rem;
+  }
+}
+body header .navbar-toggler {
+  border: none;
+  padding: 0;
+  outline: none;
+}
+body header .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+body header .navbar-toggler .hamburger-toggle {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  z-index: 11;
+  float: right;
+}
+body header .navbar-toggler .hamburger-toggle .hamburger {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%) rotate(0deg);
+          transform: translate(-50%, -50%) rotate(0deg);
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 50%;
+  pointer-events: none;
+}
+body header .navbar-toggler .hamburger-toggle .hamburger span {
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  border-radius: 2px;
+  z-index: 1;
+  -webkit-transition: background 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), all 0.2s ease-in-out, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: background 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), all 0.2s ease-in-out, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transition: transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), all 0.2s ease-in-out;
+  transition: transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.2s cubic-bezier(0.77, 0.2, 0.05, 1), all 0.2s ease-in-out, -webkit-transform 0.2s cubic-bezier(0.77, 0.2, 0.05, 1);
+  left: 0;
+}
+body header .navbar-toggler .hamburger-toggle .hamburger span:first-child {
+  top: 10%;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: translate(0% -50%) !important;
+          transform: translate(0% -50%) !important;
+}
+body header .navbar-toggler .hamburger-toggle .hamburger span:nth-child(2) {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+body header .navbar-toggler .hamburger-toggle .hamburger span:last-child {
+  left: 0;
+  top: auto;
+  bottom: 10%;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+body header .navbar-toggler .hamburger-toggle .hamburger.active span {
+  position: absolute;
+  margin: 0;
+}
+body header .navbar-toggler .hamburger-toggle .hamburger.active span:first-child {
+  top: 45%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+body header .navbar-toggler .hamburger-toggle .hamburger.active span:nth-child(2) {
+  left: 50%;
+  width: 0;
+}
+body header .navbar-toggler .hamburger-toggle .hamburger.active span:last-child {
+  top: 45%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+body main {
+  height: 88.5%;
+  margin: 0 0.5rem;
+  overflow-y: auto;
+  width: calc(100% - 1rem);
+}
+body aside {
+  display: none;
+}
+body footer {
+  height: calc(3.75% - 1rem);
+  margin: 0.5rem;
+  width: calc(100% - 1rem);
+}
+@media (min-width: 992px) {
+  body main {
+    width: calc(80% - 1rem);
+  }
+  body aside {
+    display: block;
+    height: 88.5%;
+    overflow-y: auto;
+    width: calc(20% - 1rem / 2);
+  }
+}
+/*# sourceMappingURL=form.cc2dca15.css.map */

@@ -1,0 +1,82 @@
+/* uncss:ignore start */
+body.bg-dark .login-box {
+  background: rgba(25, 36, 50, 0.7);
+  -webkit-box-shadow: 0 15px 25px rgba(25, 36, 50, 0.6);
+          box-shadow: 0 15px 25px rgba(25, 36, 50, 0.6);
+}
+body.bg-dark .login-box .user-box input {
+  color: #a2b9c7;
+  border-bottom: 1px solid #192432;
+  -webkit-transition: border-bottom-color 0.3s ease-out;
+  transition: border-bottom-color 0.3s ease-out;
+}
+body.bg-dark .login-box .user-box input:focus, body.bg-dark .login-box .user-box input:valid {
+  border-bottom-color: #a2b9c7;
+  -webkit-transition: border-bottom-color 0.3s ease-in;
+  transition: border-bottom-color 0.3s ease-in;
+}
+body.bg-dark .login-box .user-box label {
+  color: #a2b9c7;
+}
+body.bg-light .login-box {
+  background: rgba(162, 185, 199, 0.7);
+  -webkit-box-shadow: 0 15px 25px rgba(162, 185, 199, 0.6);
+          box-shadow: 0 15px 25px rgba(162, 185, 199, 0.6);
+}
+body.bg-light .login-box .user-box input {
+  color: #192432;
+  border-bottom: 1px solid #a2b9c7;
+  -webkit-transition: border-bottom-color 0.3s ease-out;
+  transition: border-bottom-color 0.3s ease-out;
+}
+body.bg-light .login-box .user-box input:focus, body.bg-light .login-box .user-box input:valid {
+  border-bottom-color: #192432;
+  -webkit-transition: border-bottom-color 0.3s ease-in;
+  transition: border-bottom-color 0.3s ease-in;
+}
+body.bg-light .login-box .user-box label {
+  color: #192432;
+}
+body main {
+  background-size: cover;
+}
+body main .login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+body main .login-box .user-box {
+  position: relative;
+}
+body main .login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+body main .login-box .user-box input:focus + label, body main .login-box .user-box input:valid + label {
+  top: -20px;
+  left: 0;
+  font-size: 12px;
+}
+body main .login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 1rem;
+  pointer-events: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=form.1be2e466.css.map */
