@@ -1,20 +1,22 @@
 {
-  "name": "uno",
-  "version": "0.0.1",
-  "description": "Exercise one",
-  "repository": "https://github.com/Maider777/DIW.git",
-  "author": "maiderp <ikbef@plaiaundi.net>",
+  "name": "dos",
+  "version": "0.0.2",
+  "description": "Exercise two",
+  "repository": "https://github.com/Maider777/proyecto1",
+  "author": "Maider777 <ikbef@plaiaundi.net>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "parcel build *.html",
-    "start": "parcel serve *.html --open"
+    "build": "parcel build templates/*.html",
+    "start": "parcel serve templates/*.html --open"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "2.0.0-rc.0",
-    "autoprefixer": "^10.3.6",
-    "parcel": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "2.0.0",
+    "autoprefixer": "^10.3.7",
+    "parcel": "^2.0.0",
+    "postcss-uncss": "^0.17.0",
+    "posthtml-cli": "^0.10.0",
     "posthtml-extend": "^0.6.0",
-    "posthtml-include": "^1.7.1"
+    "posthtml-include": "^1.7.2"
   }
 }

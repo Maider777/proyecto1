@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "uno",
+			"path": ".."
+		},
+		{
+			"name": "fotos",
+			"path": "..\\..\\..\\Desktop\\fotos"
+		}
+	],
+	"settings": {}
+}
